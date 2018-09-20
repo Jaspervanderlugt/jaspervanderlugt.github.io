@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <style>
+body {background: rgb(124, 124, 124);}
+* {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #6d6d6d;
+    padding: 20px;
+}
+        </style>
+</head>
+<body>
+        <div>
+                <nav>
+                        <ul>
+                                <li><a href="index.html">Portfolio</a></li>
+                                <li><a href="Hobby.html">Hobby</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                              </ul>
+                </nav>
+            </div>
+    <h3 class="content">Contact Form</h3>
+
+<div class="content">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="lname">Contact Information</label>
+    <input type="text" id="Email" name="email" placeholder="Your E-mail or Phone number..">
+
+    <label for="Subject">Subject</label>
+    <select id="Subject" name="Subject">
+      <option value="CV">CV</option>
+      <option value="Hobby's">Hobby's</option>
+      <option value="Work Experience">Work Experience</option>
+      <option value="General Information">General Information</option>
+      <option value="Prior Education">Prior Education</option>
+      <option value="My question does not contain these subjects">My question does not contain these subjects</option>
+    </select>
+
+    <label for="Question">Question</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
