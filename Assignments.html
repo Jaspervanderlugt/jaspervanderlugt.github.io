@@ -7,16 +7,21 @@
         <title> My Portfolio </title>
         <style>
                 body {
-                    background: rgb(124, 124, 124);
+                    background-image: url('ICT.jpg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-position: center; 
+                    margin: auto;
                     font-family: Arial, Helvetica, sans-serif;
                     box-sizing: border-box;
+                    color: white;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(161,54,143, 0.5);
 }
 
 li {
@@ -46,7 +51,8 @@ li a:hover:not(.active) {
                     background: rgba(85, 85, 85, 0.11);
                     padding: 10px;
                 }
-                table tr:nth-child(even) {background-color: #a5a5a5;}
+                table tr:nth-child(odd) {background-color: rgba(223, 78, 198, 0.5);}
+                table tr:nth-child(even) {background-color: rgba(161,54,143, 0.5);}
                 table {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -71,13 +77,14 @@ li a:hover:not(.active) {
     <body> 
         <div>
             <nav>
-                    <ul>
-                            <li><a href="index.html">Portfolio</a></li>
-                            <li><a href="Hobby.html">Hobby</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="Assignments.html">Assignments</a></li>
-                          </ul>
-            </nav>
+                <ul>
+                        <li><a href="index.html">Portfolio</a></li>
+                        <li><a href="CV.html">Curriculum Vitae</a></li>
+                        <li><a href="Hobby.html">Hobby</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="Assignments.html">Assignments</a></li>
+                      </ul>
+        </nav>
         </div>
     <div class="content">  
             <h1> Assignments </h1>
@@ -143,25 +150,57 @@ li a:hover:not(.active) {
     </div>  
     <div class="content"> 
         <h2> Assignment 2.4</h2>
-        <p> 
-            For this assignment i will take another good friend of mine, <br> <br> Michael Roosendaal.<br> <br>I've spend most of my adult years and some of my teen years together with him.
-            he is someone who gets things done and has no silver lining. he will tell you exactly what he thinks, which can be a little frustrating at times. We are both avid
-            Gamers and enjoy playing games along with our other friends.but the way he influences me is when we are gaming with just the two of us. he will get this bright idea 
-            about (for example) he will join his academy's school counsil, he will then relay this information to me (since we're both on NHL Stenden, only different locations)
-            and will provide arguments to each and every counter argument that i provide for me not joining the counsil. he is able to completely turn my point of view around,
-            to the point that i agree with him and sign up as well. Other things he has influenced me in are: Going back to school, which gaming gear to get, 
-            where to go on vacation and how to go about the future. all with the same technique writen above. 
-        </p>
-        <p>
-             now for his strengths and weaknesses, <br> <br> his strengths are his perserverance, ability to argumentize everything he says and his levelheadedness. <br> <br> 
-             his weaknesses are not being able to restrain himself when talking, he won't go out of his way to do something for you (especially when physsical labour is involved),
-             he will go into a discussion with you over minor things.
-        </p>
-        <p>
-            Something that i would like to achieve that he already has is his ability to be prepared for anything and his financial stability.
-            The way i'm going to achieve this is by studying a lot, refraining from buying unnecessary things and putting the money in savings. also i'm going to be a lot more thorough 
-            than i was (like not settling on the first insurer that crosses my path, but rather crossreferensing his information with other insurers to get the best deal)
-        </p>
+        <table>
+            <tr> 
+                <th align="left"> The person i Chose is: </th>
+                <td> Michael Roosendaal, A good friend of mine</td>
+            </tr>
+        </table>
+        <br> <br>
+        <div>
+            <table>
+                <tr>
+                    <th align="left"> What points has this person influenced you on?</th>
+                    <td> I've spend my adult years and some of my teen years together with him. he is someone who likes to get things done and has no silver lining. 
+                        he will tell you exactly what he thinks, which can be a little frustrating at times.  The things he has really influenced me on are joining
+                        the School cuonsil, Going back to school, which gaming gear to get, where to go on vacation and how to go about the future. all with the same technique writen above.</td>
+                   
+                </tr>
+                <tr>
+                    <th align="left"> How has this person influenced you?</th>
+                    <td> We are both avid Gamers and enjoy playing games along with our other friends.
+                            but the times that he influences me is when we are gaming with just the two of us. he will get this bright idea about (for example) joining his academy's school counsil, 
+                            he will then relay this to me with arguments why i should join too (since we're both on NHL Stenden, only different locations and studies) 
+                            these arguments counter any reason that i provide for me not joining the counsil. he is able to completely turn my point of view around, 
+                            to the point that i agree with him and sign up as well.</td>
+                    
+                </tr>
+                <tr>
+                    <th align="left"> What were his strong/weak points?</th>
+                    <td> For as far as i know he's never lost his strong points. A definite weakpoint that he lost is that he had a tendency to create drama within the group</td>
+                    
+                </tr>
+                <tr>
+                    <th align="left"> What are his strong/weak points?</th>
+                    <td> His strengths are his perserverance, ability to argumentize everything he says and his levelheadedness. 
+                        His weaknesses are not being able to restrain himself when talking, 
+                        he won't go out of his way to do something for you (especially when physsical labour is involved), 
+                        he will go into a discussion with you over minor things.</td>
+                    
+                </tr>
+                <tr> 
+                        <th align="left"> What is something you want to achieve that he has already achieved?</th>
+                        <td> Something that i would like to achieve that he already has is his ability to be prepared for anything and his financial stability.</td>
+                        
+                </tr>
+                <tr> 
+                        <th align="left"> How do you think you are going to achieve this?</th>
+                        <td> The way i'm going to achieve this is by studying a lot, refraining from buying unnecessary things and putting the money in savings. 
+                            also i'm going to be a lot more thorough than i was (like not settling on the first insurer that crosses my path, 
+                            but rather crossreferensing his information with other insurers to get the best deal)</td>
+                        
+                </tr>
+            </table> 
     </div>
     </body>
     </html>
